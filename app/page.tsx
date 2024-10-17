@@ -52,13 +52,14 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="bg-black bg-opacity-60 p-8 rounded-lg max-w-lg mx-4 text-center tracking-tight ">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 bg-white text-white text-center">
           ZenCharge is revolutionizing the way we travel.
         </h1>
-        <p className="text-base md:text-lg mb-6">
+        <p className="text-base md:text-lg mb-6 text-white text-center">
           Our network of EV charging stations combines convenience, comfort, and
           sustainability.
         </p>
+
         {message ? (
           <h2 className="text-2xl font-semibold mt-10">{message}</h2>
         ) : (
